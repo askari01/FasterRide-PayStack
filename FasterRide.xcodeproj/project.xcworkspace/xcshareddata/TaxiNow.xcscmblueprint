@@ -1,0 +1,58 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2777731CC595A23368B4FDCF0958557EB6F7F2E3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0A16CF3481A197823E0BB5BB1823E65EF75998B0" : 0,
+    "4E89D362F2A4F0E896CD54FC449699A734C2555D" : 0,
+    "F9A45D528A7F3BA519B32A8C7BE7209EAC948868" : 0,
+    "2777731CC595A23368B4FDCF0958557EB6F7F2E3" : 9223372036854775807,
+    "D0F6EAEF185CEE34B0A3A6F0D0EE7C733AA43732" : 0,
+    "1A29AD876BBADBF83EEA28E3911B50E7A6E461B2" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "523A2519-9ABE-4144-8704-D5F7556F3473",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0A16CF3481A197823E0BB5BB1823E65EF75998B0" : "iosCustomer\/",
+    "4E89D362F2A4F0E896CD54FC449699A734C2555D" : "taxi-anytime-client_ios\/",
+    "F9A45D528A7F3BA519B32A8C7BE7209EAC948868" : "taxianytime_client_ios\/",
+    "2777731CC595A23368B4FDCF0958557EB6F7F2E3" : "iosCabAnyTimeCLIENT\/",
+    "D0F6EAEF185CEE34B0A3A6F0D0EE7C733AA43732" : "client",
+    "1A29AD876BBADBF83EEA28E3911B50E7A6E461B2" : "cabanytime-client\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TaxiNow",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TaxiNow.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/gitlab.com\/cabanytime\/iosCustomer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0A16CF3481A197823E0BB5BB1823E65EF75998B0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/deepmoteria\/cabanytime-client",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1A29AD876BBADBF83EEA28E3911B50E7A6E461B2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/velascoti\/ioscabanytimeclient\/src",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2777731CC595A23368B4FDCF0958557EB6F7F2E3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/deepmoteria\/taxi-anytime-client_ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4E89D362F2A4F0E896CD54FC449699A734C2555D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/uberforxelluminati\/taxiv3_client_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D0F6EAEF185CEE34B0A3A6F0D0EE7C733AA43732"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/deepmoteria\/taxianytime_client_ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F9A45D528A7F3BA519B32A8C7BE7209EAC948868"
+    }
+  ]
+}
