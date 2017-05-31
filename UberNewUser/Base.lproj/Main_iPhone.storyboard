@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="COd-m6-x40">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="COd-m6-x40">
     <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -56,7 +56,7 @@
                                 <rect key="frame" x="55" y="69" width="209" height="208"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All Copyrights Reserved By Elluminati" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3kR-a5-tOk">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All Copyrights Reserved By FasterRide" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3kR-a5-tOk">
                                 <rect key="frame" x="-1" y="452" width="320" height="20"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirLTStd-Light" family="Avenir LT Std" pointSize="13"/>
@@ -89,14 +89,14 @@
                                     <segue destination="ADh-tO-GO3" kind="push" identifier="segueToLogin" id="hrD-Nx-wZW"/>
                                 </connections>
                             </button>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cab Anytime" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hOp-lu-HMV">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FasterRide" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hOp-lu-HMV">
                                 <rect key="frame" x="40" y="278" width="247" height="54"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="On Demand Taxi App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Aic-9T-5Jg">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Aic-9T-5Jg">
                                 <rect key="frame" x="59" y="329" width="208" height="29"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -206,14 +206,14 @@ Elluminati</string>
                                         <rect key="frame" x="0.0" y="285" width="320" height="198"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gVn-tl-pwW">
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gVn-tl-pwW">
                                         <rect key="frame" x="141" y="311" width="30" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="AvenirLTStd-Light" family="Avenir LT Std" pointSize="13"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="E4D-gn-ASB" userLabel="btnGplus">
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" misplaced="YES" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="E4D-gn-ASB" userLabel="btnGplus">
                                         <rect key="frame" x="171" y="306" width="28" height="28"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
@@ -241,7 +241,7 @@ Elluminati</string>
                                             <action selector="onClickLogin:" destination="ADh-tO-GO3" eventType="touchUpInside" id="R73-Hh-TEU"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Sign in with " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Yq9-R6-Ek0">
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Sign in with " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Yq9-R6-Ek0">
                                         <rect key="frame" x="14" y="311" width="300" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="AvenirLTStd-Light" family="Avenir LT Std" pointSize="14"/>
@@ -298,7 +298,7 @@ Elluminati</string>
                                             <action selector="onClickForback:" destination="ADh-tO-GO3" eventType="touchUpInside" id="07j-qc-69g"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="MYV-0d-1TQ" userLabel="btnFacebook">
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" misplaced="YES" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="MYV-0d-1TQ" userLabel="btnFacebook">
                                         <rect key="frame" x="113" y="306" width="26" height="27"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
@@ -473,7 +473,7 @@ Elluminati</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bg_menu" id="3hI-ee-6Ky">
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bg_menu" id="3hI-ee-6Ky">
                                 <rect key="frame" x="-3" y="0.0" width="274" height="480"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -554,6 +554,67 @@ Elluminati</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2yL-tr-E93" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1785" y="-701"/>
+        </scene>
+        <!--Help-->
+        <scene sceneID="Rli-hi-acQ">
+            <objects>
+                <viewController title="Help" id="kX6-Ie-V1Y" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GYW-0U-Jwb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" id="zI9-qV-4pm">
+                                <rect key="frame" x="16" y="163" width="288" height="154"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Contact Us" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ZXf-da-284">
+                                        <rect key="frame" x="94" y="8" width="101" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="fasterRide email address" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qUQ-2W-Jj6">
+                                        <rect key="frame" x="8" y="37" width="272" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="support@fasterride.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="i4C-Hg-tMQ">
+                                        <rect key="frame" x="8" y="66" width="272" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="+234 (0) 9069621943" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kdq-pA-DNu">
+                                        <rect key="frame" x="8" y="95" width="272" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="+234 (0) 8054448388" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2hR-AH-9wV">
+                                        <rect key="frame" x="8" y="124" width="272" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Help" id="MDY-5o-zF8">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="SE0-px-OUj"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O9J-vg-oWJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2568" y="-691"/>
         </scene>
         <!--Reveal View Controller-->
         <scene sceneID="Bar-Ra-CMI">
@@ -638,7 +699,7 @@ Elluminati</string>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="13"/>
-                                        <state key="normal" title="          Cash" image="FEAD9EBF-3CA3-4B03-9D63-2FF97DA7EA3A">
+                                        <state key="normal" title="          Cash" image="button:A7N-Xz-w1n:image">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
@@ -1101,7 +1162,7 @@ Elluminati</string>
                                         <fontDescription key="fontDescription" name="AvenirLTStd-Light" family="Avenir LT Std" pointSize="13"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 0.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5Pg-as-GBZ">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="₦ 0.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5Pg-as-GBZ">
                                         <rect key="frame" x="163" y="237" width="99" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="AvenirLTStd-Light" family="Avenir LT Std" pointSize="20"/>
@@ -1166,7 +1227,7 @@ Elluminati</string>
                                         <fontDescription key="fontDescription" name="AvenirLTStd-Light" family="Avenir LT Std" pointSize="13"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7dS-7D-58R">
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="₦ 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7dS-7D-58R">
                                         <rect key="frame" x="157" y="116" width="99" height="29"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="AvenirLTStd-Light" family="Avenir LT Std" pointSize="13"/>
@@ -1557,6 +1618,7 @@ Elluminati</string>
                         <segue destination="KKx-N8-lAv" kind="push" identifier="segueToHistory" id="gCO-Z4-jLA"/>
                         <segue destination="6FQ-CL-sYg" kind="push" identifier="segueToBooking" id="G8B-kz-09g"/>
                         <segue destination="EYv-Mi-UeI" kind="unwind" identifier="logout" unwindAction="onUnwindForLogout:" id="UMP-fc-Rq5"/>
+                        <segue destination="kX6-Ie-V1Y" kind="push" identifier="segueToHelp" id="xUz-Qk-tCE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cK2-ta-8NN" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2141,7 +2203,7 @@ Elluminati</string>
                             </button>
                         </barButtonItem>
                         <view key="titleView" contentMode="scaleToFill" id="deV-GC-uxU">
-                            <rect key="frame" x="58" y="0.0" width="205" height="44"/>
+                            <rect key="frame" x="57.5" y="0.0" width="205" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Type destination location" minimumFontSize="17" id="ztk-7t-mig">
@@ -2255,11 +2317,11 @@ Elluminati</string>
                                 <rect key="frame" x="-1" y="-3" width="320" height="481"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="4EAC09EF-3E7D-4300-AA9C-20C23A5704F8" id="7Sb-Kg-tt1">
+                                    <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="imageView:7Sb-Kg-tt1:image" id="7Sb-Kg-tt1">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="481"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="E73D7C63-06C2-46F9-9D50-AB6F57AC9E75" id="Bze-1l-LvY">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imageView:Bze-1l-LvY:image" id="Bze-1l-LvY">
                                         <rect key="frame" x="79" y="114" width="162" height="131"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -2277,7 +2339,7 @@ Elluminati</string>
                                 <rect key="frame" x="0.0" y="65" width="320" height="415"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bg_profile_profile" id="gyF-fk-vKh">
+                                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bg_profile_profile" id="gyF-fk-vKh">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="147"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -2495,7 +2557,7 @@ Elluminati</string>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" style="plain" id="Ane-k2-j4v">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="yNw-xX-hsH">
-                                <rect key="frame" x="340" y="11" width="19" height="22"/>
+                                <rect key="frame" x="285" y="11" width="19" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="edit_profile">
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2555,7 +2617,7 @@ Elluminati</string>
                                 <rect key="frame" x="-1" y="64" width="321" height="413"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bg_profile_profile" id="naZ-eJ-nMk">
+                                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bg_profile_profile" id="naZ-eJ-nMk">
                                         <rect key="frame" x="0.0" y="42" width="321" height="160"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -2676,7 +2738,7 @@ Elluminati</string>
                                                 <rect key="frame" x="17" y="12" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="+93">
+                                                <state key="normal" title="+234">
                                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -2732,7 +2794,7 @@ Elluminati</string>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ral-1s-9Rg">
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ral-1s-9Rg">
                                         <rect key="frame" x="208" y="13" width="25" height="22"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="AvenirLTStd-Light" family="Avenir LT Std" pointSize="15"/>
@@ -2746,7 +2808,7 @@ Elluminati</string>
                                         <color key="textColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Pnz-Eg-zbX" userLabel="btnFB">
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Pnz-Eg-zbX" userLabel="btnFB">
                                         <rect key="frame" x="177" y="10" width="27" height="27"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button" image="btn_facebook">
@@ -2756,7 +2818,7 @@ Elluminati</string>
                                             <action selector="fbbtnPressed:" destination="c50-CD-sWs" eventType="touchUpInside" id="ggm-D4-QMK"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="tLW-5u-DDH" userLabel="btnG+">
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="tLW-5u-DDH" userLabel="btnG+">
                                         <rect key="frame" x="236" y="10" width="27" height="27"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="btn_google_signIn">
@@ -3302,7 +3364,7 @@ Elluminati</string>
                                         <rect key="frame" x="0.0" y="22" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OeJ-fx-Cg4" id="pBn-Qo-28E">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="card_sileted_payment" id="vcB-d7-flJ">
@@ -4027,7 +4089,7 @@ Elluminati</string>
                                                 <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2$ per mile" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2Ha-8j-h20">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2 ₦ per mile" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2Ha-8j-h20">
                                                 <rect key="frame" x="42" y="110" width="139" height="13"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="AvenirLTStd-Light" family="Avenir LT Std" pointSize="12"/>
@@ -4041,28 +4103,28 @@ Elluminati</string>
                                                 <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="4$ per hour" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="JdY-Mp-qwF">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="4 ₦ per hour" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="JdY-Mp-qwF">
                                                 <rect key="frame" x="42" y="169" width="139" height="8"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="AvenirLTStd-Light" family="Avenir LT Std" pointSize="12"/>
                                                 <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="$50.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lfk-RR-qn6">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="₦ 50.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lfk-RR-qn6">
                                                 <rect key="frame" x="209" y="44" width="101" height="29"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="AvenirLTStd-Light" family="Avenir LT Std" pointSize="19"/>
                                                 <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="$50.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="62Y-1C-1zh">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="₦ 50.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="62Y-1C-1zh">
                                                 <rect key="frame" x="207" y="90" width="100" height="29"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="AvenirLTStd-Roman" family="Avenir LT Std" pointSize="18"/>
                                                 <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="$50.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dbb-lg-tJq">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="₦ 50.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dbb-lg-tJq">
                                                 <rect key="frame" x="207" y="148" width="100" height="29"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="AvenirLTStd-Roman" family="Avenir LT Std" pointSize="18"/>
@@ -4099,7 +4161,7 @@ Elluminati</string>
                                                 <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="$50.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Rku-q1-6BN">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="₦ 50.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Rku-q1-6BN">
                                                 <rect key="frame" x="207" y="248" width="100" height="25"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="AvenirLTStd-Roman" family="Avenir LT Std" pointSize="18"/>
@@ -4131,7 +4193,7 @@ Elluminati</string>
                                                 <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="$50.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cgR-xk-FVX">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="₦ 50.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cgR-xk-FVX">
                                                 <rect key="frame" x="207" y="207" width="100" height="25"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="AvenirLTStd-Roman" family="Avenir LT Std" pointSize="18"/>
@@ -4399,7 +4461,7 @@ Elluminati</string>
                                                     <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="14"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="20.00$" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" id="RTC-W0-4ie">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="20.00 ₦" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" id="RTC-W0-4ie">
                                                     <rect key="frame" x="219" y="89" width="80" height="20"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="16"/>
@@ -4807,7 +4869,239 @@ Elluminati</string>
         </scene>
     </scenes>
     <resources>
-        <image name="4EAC09EF-3E7D-4300-AA9C-20C23A5704F8" width="320" height="569">
+        <image name="Card_deselect" width="50" height="32"/>
+        <image name="alert_bg" width="240" height="240"/>
+        <image name="arrow" width="39" height="58"/>
+        <image name="arrow_icon" width="12" height="23"/>
+        <image name="back" width="15" height="13"/>
+        <image name="bg_b_sign_in" width="320" height="260"/>
+        <image name="bg_btn_small" width="300" height="51"/>
+        <image name="bg_edittext" width="127" height="35"/>
+        <image name="bg_emailInfo" width="19" height="19"/>
+        <image name="bg_menu" width="195" height="569"/>
+        <image name="bg_profile_profile" width="320" height="179"/>
+        <image name="bg_progressCell" width="305" height="78"/>
+        <image name="bg_sing_attention" width="19" height="19"/>
+        <image name="bg_splash" width="320" height="568"/>
+        <image name="bg_w_fare_estimate" width="315" height="548"/>
+        <image name="btnSimpleCheck" width="14" height="14"/>
+        <image name="btn_a_sign_in" width="160" height="51"/>
+        <image name="btn_b_sign_in" width="160" height="51"/>
+        <image name="btn_facebook" width="26" height="26"/>
+        <image name="btn_google_signIn" width="26" height="26"/>
+        <image name="button:A7N-Xz-w1n:image" width="44" height="44">
+            <mutableData key="keyedArchiveRepresentation">
+YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
+GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
+c1dOU0NvbG9ygAKADRIgwAAAgAOAC1h7NDQsIDQ0fdIVChYYWk5TLm9iamVjdHOhF4AEgArSFQoaHaIb
+HIAFgAaACRAA0iAKISJfEBROU1RJRkZSZXByZXNlbnRhdGlvboAHgAhPESbeTU0AKgAAHkgAAAAAAAAA
+AAAAAAADAwMDSkpKSrKysrLq6urq9PT09PPz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz
+8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz
+8/Pz8/P09PT08PDw8MbGxsZpaWlpDw8PDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJCQk
+JK+vr6/7+/v7////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+///////////////////////Ozs7OQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACMjIyPU1NTU////
+////////////5eXl5d7e3t7f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f
+39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f3t7e
+3uHh4eH6+vr6///////////w8PDwR0dHRwAAAAAAAAAAAAAAAAAAAAAEBAQEsrKysv//////////zc3N
+zVNTU1MeHh4eFxcXFxgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgY
+GBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGhoa
+Gjw8PDytra2t///////////g4ODgHBwcHAAAAAAAAAAAAAAAAEtLS0v9/f39/////8zMzMwZGRkZAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAUFBQWenp6e//////////99fX19AAAAAAAAAAAAAAAAtLS0tP/////8/Pz8T09PTwAAAAAAAAAAHx8f
+H0JCQkJTU1NTVlZWVlVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV1dXV0JCQkIGBgYGAAAA
+AB8fHx/n5+fn/////8jIyMgFBQUFAAAAAAAAAADs7Ozs/////+Xl5eUUFBQUIiIiIp2dnZ3n5+fn////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////f39/WlpaWkAAAAAAAAA
+ALy8vLz/////4uLi4hkZGRkAAAAAAAAAAPX19fX/////09PT001NTU3e3t7e////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////lJSUlAAAAAAAAAAAs7Oz
+s//////k5OTkHR0dHQAAAAAAAAAA8/Pz8//////x8fHx7e3t7f//////////1NTU1IODg4Nqampqa2tr
+a2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tr
+a2tra2tra2tra2tra2tra2tra2tra2tra2lpaWmCgoKC+vr6+v////+QkJCQAAAAAAAAAACzs7Oz////
+/+Tk5OQdHR0dAAAAAAAAAADz8/Pz/////////////////////6KioqIRERERAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQkJCT39/f3/////5CQkJAAAAAAAAAAALOzs7P/////5OTk
+5B0dHR0AAAAAAAAAAPPz8/P////////////////Nzc3NDg4ODgAAAAAAAAAACAgICAcHBwcHBwcHBwcH
+BwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcH
+BwcHBwcHBwcHBwcHBwcHBwcGBgYGMjIyMvj4+Pj/////kJCQkAAAAAAAAAAAs7Ozs//////k5OTkHR0d
+HQAAAAAAAAAA8/Pz8////////////////3JycnIAAAAAX19fX7i4uLjT09PT0tLS0tLS0tLS0tLS0tLS
+0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS
+0tLS0tLS0tLS0tLS0tDQ0NDa2tra/v7+/v////+QkJCQAAAAAAAAAACzs7Oz/////+Tk5OQdHR0dAAAA
+AAAAAADz8/Pz////////////////S0tLS4iIiIj/////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////5CQkJAAAAAAAAAAALOzs7P/////5OTk5B0dHR0AAAAAAAAA
+APPz8/P///////////////+4uLi49vb29v/////29vb2zMzMzMnJycnJycnJycnJycnJycnJycnJycnJ
+ycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJ
+ycnJycnIyMjI0tLS0v7+/v7/////kJCQkAAAAAAAAAAAs7Ozs//////k5OTkHR0dHQAAAAAAAAAA8/Pz
+8///////////////////////////+Pj4+FhYWFgKCgoKCAgICAkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJ
+CQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJ
+CQgICAgyMjIy+Pj4+P////+QkJCQAAAAAAAAAACzs7Oz/////+Tk5OQdHR0dAAAAAAAAAADz8/Pz////
+///////////////////////y8vLyIyMjIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+ACUlJSX39/f3/////4yMjIwAAAAAAAAAALOzs7P/////5OTk5B0dHR0AAAAAAAAAAPPz8/P/////////
+///////////////////////Dw8PDbm5ubm1tbW1ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5u
+bm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ra2trh4eH
+h/v7+/v/////q6urqxsbGxsAAAAAsLCwsP/////k5OTkHR0dHQAAAAAAAAAA8/Pz8//////6+vr6/Pz8
+/P//////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+///////+/v7+6Ojo6Hp6enq6urq6/////+Tk5OQdHR0dAAAAAAAAAADz8/Pz/////9ra2tpXV1dXuLi4
+uPT09PT+/v7+////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////39/f3/////5OTk5B0dHR0AAAAAAAAAAPPz8/P/////3d3d3RAQEBACAgICKSkp
+KUpKSkpRUVFRUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQ
+UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUE9PT09TU1NThISE
+hOHh4eH////////////////k5OTkHR0dHQAAAAAAAAAA8/Pz8//////d3d3dFxcXFwAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJSUl
+Jc7Ozs7//////////+Tk5OQdHR0dAAAAAAAAAADz8/Pz/////93d3d0XFxcXAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPDw8
+PPX19fX/////5OTk5B0dHR0AAAAAAAAAAPPz8/P/////3d3d3RcXFxcAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAwMDxsbG
+xv/////k5OTkHR0dHQAAAAAAAAAA8/Pz8//////d3d3dFxcXFwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACzs7Oz////
+/+Tk5OQdHR0dAAAAAAAAAADz8/Pz/////93d3d0XFxcXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALKysrL/////5OTk
+5BsbGxsAAAAAAAAAAPPz8/P/////3d3d3RcXFxcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAQEBAQNDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0MDAwMtbW1tf/////k5OTkJycn
+JwoKCgoAAAAA8/Pz8//////d3d3dFxcXFwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAICAgJkZGRkv7+/v9jY2NjZ2dnZ2NjY2NjY2NjY2NjY2NjY2NfX19fz8/Pz//////v7+/vd3d3d0NDQ
+0GVlZWXz8/Pz/////93d3d0XFxcXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjo6O
+jv//////////////////////////////////////////////////////////////////////////7Ozs
+7PPz8/P/////3d3d3RcXFxcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQED9/f39////
+//X19fXGxsbGwsLCwsPDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8LCwsLJycnJ+Pj4+P/////o6Ojo8/Pz
+8//////d3d3dFxcXFwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiIiIiP/////8/Pz8Y2Nj
+YwICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAhwcHBzi4uLi/////+fn5+fz8/Pz////
+/93d3d0XFxcXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACTk5OT//////n5+fk9PT09AAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEREREeDg4OD/////5+fn5/Pz8/P/////3d3d
+3RcXFxcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFtbW1v//////////9XV1dWEhISEf39/
+f4CAgICAgICAgICAgICAgICAgICAgICAgH9/f3+NjY2N8PDw8P/////n5+fn8/Pz8//////d3d3dFxcX
+FwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwsLC8LCwsL/////////////////////////
+//////////////////////////////////////////////////Dw8PDz8/Pz/////93d3d0XFxcXAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHBwcHKenp6fw8PDw/Pz8/Pz8/Pz8/Pz8/Pz8
+/Pz8/Pz8/Pz8+/v7+/7+/v7///////////z8/Pz4+Pj4oKCgoPPz8/P/////3d3d3RcXFxcAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACsrKytAQEBAPz8/Pz8/Pz8/Pz8/Pz8/
+Pz8/Pz8+Pj4+xMTExP/////p6enpU1NTUzg4ODgFBQUF8/Pz8//////d3d3dFxcXFwAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAACwsLCw/////+Pj4+MWFhYWAAAAAAAAAAD19fX1/////9zc3NwWFhYWAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+ALOzs7P/////5OTk5B4eHh4AAAAAAAAAAOzs7Oz/////5eXl5RsbGxsAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLy8
+vP/////i4uLiGRkZGQAAAAAAAAAAtLS0tP/////8/Pz8T09PTwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB8fHx/n5+fn////
+/8jIyMgFBQUFAAAAAAAAAABLS0tL/f39/f/////MzMzMGRkZGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFBQUFnp6env//////////fX19
+fQAAAAAAAAAAAAAAAAQEBASysrKy///////////MzMzMU1NTUx4eHh4XFxcXGBgYGBgYGBgYGBgYGBgY
+GBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgY
+GBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgaGhoaPDw8PK2tra3//////////+Dg4OAcHBwcAAAA
+AAAAAAAAAAAAAAAAACMjIyPU1NTU////////////////5eXl5d7e3t7f39/f39/f39/f39/f39/f39/f
+39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f
+39/f39/f39/f39/f39/f39/f39/f3t7e3uHh4eH6+vr6///////////w8PDwR0dHRwAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAACQkJCSvr6+v+/v7+///////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////zs7OzkBAQEAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAMDAwNLS0tLsrKysuzs7Oz09PT08/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz
+8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz
+8/Pz8/Pz8/Pz8/Pz8/T09PTw8PDwxsbGxmlpaWkPDw8PAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4B
+AAADAAAAAQAsAAABAQADAAAAAQAsAAABAgADAAAABAAAHvYBAwADAAAAAQABAAABBgADAAAAAQACAAAB
+EQAEAAAAAQAAAAgBEgADAAAAAQABAAABFQADAAAAAQAEAAABFgADAAAAAQAsAAABFwAEAAAAAQAAHkAB
+HAADAAAAAQABAAABUgADAAAAAQABAAABUwADAAAABAAAHv6HcwAHAAAH2AAAHwYAAAAAAAgACAAIAAgA
+AQABAAEAAQAAB9hhcHBsAiAAAG1udHJSR0IgWFlaIAfZAAIAGQALABoAC2Fjc3BBUFBMAAAAAGFwcGwA
+AAAAAAAAAAAAAAAAAAAAAAD21gABAAAAANMtYXBwbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAC2Rlc2MAAAEIAAAAb2RzY20AAAF4AAAFnGNwcnQAAAcUAAAAOHd0cHQA
+AAdMAAAAFHJYWVoAAAdgAAAAFGdYWVoAAAd0AAAAFGJYWVoAAAeIAAAAFHJUUkMAAAecAAAADmNoYWQA
+AAesAAAALGJUUkMAAAecAAAADmdUUkMAAAecAAAADmRlc2MAAAAAAAAAFEdlbmVyaWMgUkdCIFByb2Zp
+bGUAAAAAAAAAAAAAABRHZW5lcmljIFJHQiBQcm9maWxlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABtbHVjAAAAAAAAAB8AAAAMc2tTSwAAACgAAAGEZGFESwAAAC4A
+AAGsY2FFUwAAACQAAAHadmlWTgAAACQAAAH+cHRCUgAAACYAAAIidWtVQQAAACoAAAJIZnJGVQAAACgA
+AAJyaHVIVQAAACgAAAKaemhUVwAAABYAAALCbmJOTwAAACYAAALYY3NDWgAAACIAAAL+aGVJTAAAAB4A
+AAMgaXRJVAAAACgAAAM+cm9STwAAACQAAANmZGVERQAAACwAAAOKa29LUgAAABYAAAO2c3ZTRQAAACYA
+AALYemhDTgAAABYAAAPMamFKUAAAABoAAAPiZWxHUgAAACIAAAP8cHRQTwAAACYAAAQebmxOTAAAACgA
+AAREZXNFUwAAACYAAAQedGhUSAAAACQAAARsdHJUUgAAACIAAASQZmlGSQAAACgAAASyaHJIUgAAACgA
+AATacGxQTAAAACwAAAUCcnVSVQAAACIAAAUuYXJFRwAAACYAAAVQZW5VUwAAACYAAAV2AFYBYQBlAG8A
+YgBlAGMAbgD9ACAAUgBHAEIAIABwAHIAbwBmAGkAbABHAGUAbgBlAHIAZQBsACAAUgBHAEIALQBiAGUA
+cwBrAHIAaQB2AGUAbABzAGUAUABlAHIAZgBpAGwAIABSAEcAQgAgAGcAZQBuAOgAcgBpAGMAQx6lAHUA
+IABoAOwAbgBoACAAUgBHAEIAIABDAGgAdQBuAGcAUABlAHIAZgBpAGwAIABSAEcAQgAgAEcAZQBuAOkA
+cgBpAGMAbwQXBDAEMwQwBDsETAQ9BDgEOQAgBD8EQAQ+BEQEMAQ5BDsAIABSAEcAQgBQAHIAbwBmAGkA
+bAAgAGcA6QBuAOkAcgBpAHEAdQBlACAAUgBWAEIAwQBsAHQAYQBsAOEAbgBvAHMAIABSAEcAQgAgAHAA
+cgBvAGYAaQBskBp1KAAgAFIARwBCACCCcl9pY8+P8ABHAGUAbgBlAHIAaQBzAGsAIABSAEcAQgAtAHAA
+cgBvAGYAaQBsAE8AYgBlAGMAbgD9ACAAUgBHAEIAIABwAHIAbwBmAGkAbAXkBegF1QXkBdkF3AAgAFIA
+RwBCACAF2wXcBdwF2QBQAHIAbwBmAGkAbABvACAAUgBHAEIAIABnAGUAbgBlAHIAaQBjAG8AUAByAG8A
+ZgBpAGwAIABSAEcAQgAgAGcAZQBuAGUAcgBpAGMAQQBsAGwAZwBlAG0AZQBpAG4AZQBzACAAUgBHAEIA
+LQBQAHIAbwBmAGkAbMd8vBgAIABSAEcAQgAg1QS4XNMMx3xmbpAaACAAUgBHAEIAIGPPj/Blh072TgCC
+LAAgAFIARwBCACAw1zDtMNUwoTCkMOsDkwO1A70DuQO6A8wAIAPAA8EDvwPGA68DuwAgAFIARwBCAFAA
+ZQByAGYAaQBsACAAUgBHAEIAIABnAGUAbgDpAHIAaQBjAG8AQQBsAGcAZQBtAGUAZQBuACAAUgBHAEIA
+LQBwAHIAbwBmAGkAZQBsDkIOGw4jDkQOHw4lDkwAIABSAEcAQgAgDhcOMQ5IDicORA4bAEcAZQBuAGUA
+bAAgAFIARwBCACAAUAByAG8AZgBpAGwAaQBZAGwAZQBpAG4AZQBuACAAUgBHAEIALQBwAHIAbwBmAGkA
+aQBsAGkARwBlAG4AZQByAGkBDQBrAGkAIABSAEcAQgAgAHAAcgBvAGYAaQBsAFUAbgBpAHcAZQByAHMA
+YQBsAG4AeQAgAHAAcgBvAGYAaQBsACAAUgBHAEIEHgQxBEkEOAQ5ACAEPwRABD4ERAQ4BDsETAAgAFIA
+RwBCBkUGRAZBACAGKgY5BjEGSgZBACAAUgBHAEIAIAYnBkQGOQYnBkUARwBlAG4AZQByAGkAYwAgAFIA
+RwBCACAAUAByAG8AZgBpAGwAZXRleHQAAAAAQ29weXJpZ2h0IDIwMDcgQXBwbGUgSW5jLiwgYWxsIHJp
+Z2h0cyByZXNlcnZlZC4AWFlaIAAAAAAAAPNSAAEAAAABFs9YWVogAAAAAAAAdE0AAD3uAAAD0FhZWiAA
+AAAAAABadQAArHMAABc0WFlaIAAAAAAAACgaAAAVnwAAuDZjdXJ2AAAAAAAAAAEBzQAAc2YzMgAAAAAA
+AQxCAAAF3v//8yYAAAeSAAD9kf//+6L///2jAAAD3AAAwGzSJSYnKFokY2xhc3NuYW1lWCRjbGFzc2Vz
+XxAQTlNCaXRtYXBJbWFnZVJlcKMnKSpaTlNJbWFnZVJlcFhOU09iamVjdNIlJiwtV05TQXJyYXmiLCrS
+JSYvMF5OU011dGFibGVBcnJheaMvLCrTMjMKNDU2V05TV2hpdGVcTlNDb2xvclNwYWNlRDAgMAAQA4AM
+0iUmODlXTlNDb2xvcqI4KtIlJjs8V05TSW1hZ2WiOypfEA9OU0tleWVkQXJjaGl2ZXLRP0BUcm9vdIAB
+AAgAEQAaACMALQAyADcARgBMAFcAXgBlAHIAeQCBAIMAhQCKAIwAjgCXAJwApwCpAKsArQCyALUAtwC5
+ALsAvQDCANkA2wDdJ78nxCfPJ9gn6yfvJ/ooAygIKBAoEygYKCcoKygyKDooRyhMKE4oUChVKF0oYChl
+KG0ocCiCKIUoigAAAAAAAAIBAAAAAAAAAEEAAAAAAAAAAAAAAAAAACiMA
+</mutableData>
+        </image>
+        <image name="call" width="63" height="63"/>
+        <image name="camera_payment" width="40" height="34"/>
+        <image name="cancel_btn" width="28" height="27"/>
+        <image name="card_sileted_payment" width="50" height="32"/>
+        <image name="cash" width="19" height="19"/>
+        <image name="check_box" width="32" height="32"/>
+        <image name="check_logout" width="38" height="27"/>
+        <image name="check_notification" width="26" height="23"/>
+        <image name="clock" width="22" height="22"/>
+        <image name="clock-img" width="20" height="18"/>
+        <image name="clock_black" width="20" height="20"/>
+        <image name="close_logout" width="28" height="27"/>
+        <image name="close_payment" width="16" height="16"/>
+        <image name="completed_btn_feedback" width="160" height="103"/>
+        <image name="country_code_combo_bg.png" width="95" height="35"/>
+        <image name="date" width="14" height="14"/>
+        <image name="desc_editbar_bg.png" width="266" height="10"/>
+        <image name="divider" width="320" height="1"/>
+        <image name="divider-1" width="1" height="1"/>
+        <image name="divider_register" width="320" height="1"/>
+        <image name="document_pin" width="18" height="18"/>
+        <image name="dot_fare_estimate" width="8" height="9"/>
+        <image name="edit_bar_bg" width="258" height="35"/>
+        <image name="edit_bar_bg1" width="49" height="35"/>
+        <image name="edit_profile" width="19" height="19"/>
+        <image name="error" width="21" height="21"/>
+        <image name="fb-1" width="26" height="26"/>
+        <image name="gmailwhite" width="26" height="26"/>
+        <image name="gray_cricle" width="40" height="40"/>
+        <image name="hf.png" width="40" height="38"/>
+        <image name="icon_card" width="57" height="36"/>
+        <image name="icon_cash" width="44" height="44"/>
+        <image name="imageView:7Sb-Kg-tt1:image" width="320" height="569">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOjtYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISgrLjQ3VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA
@@ -17018,8 +17312,7 @@ ZQALK3QACyt4AAsrfwALK4cACyuUAAsrmQALK5sACyudAAsrogALK6oACyutAAsrsgALK7oACyu9AAsr
 zwALK9IACyvXAAAAAAAABAEAAAAAAAAAPgAAAAAAAAAAAAAAAAALK9k
 </mutableData>
         </image>
-        <image name="Card_deselect" width="50" height="32"/>
-        <image name="E73D7C63-06C2-46F9-9D50-AB6F57AC9E75" width="208" height="208">
+        <image name="imageView:Bze-1l-LvY:image" width="208" height="208">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOjtYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISgrLjQ3VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA
@@ -19975,242 +20268,11 @@ QAACskUAArJUAAKyWAACsl8AArJnAAKydAACsnkAArJ7AAKyfQACsoIAArKKAAKyjQACspIAArKaAAKy
 nQACsq8AArKyAAKytwAAAAAAAAQBAAAAAAAAAD4AAAAAAAAAAAAAAAAAArK5A
 </mutableData>
         </image>
-        <image name="FEAD9EBF-3CA3-4B03-9D63-2FF97DA7EA3A" width="44" height="44">
-            <mutableData key="keyedArchiveRepresentation">
-YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
-GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
-c1dOU0NvbG9ygAKADRIgwAAAgAOAC1h7NDQsIDQ0fdIVChYYWk5TLm9iamVjdHOhF4AEgArSFQoaHaIb
-HIAFgAaACRAA0iAKISJfEBROU1RJRkZSZXByZXNlbnRhdGlvboAHgAhPESbeTU0AKgAAHkgAAAAAAAAA
-AAAAAAADAwMDSkpKSrKysrLq6urq9PT09PPz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz
-8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz
-8/Pz8/P09PT08PDw8MbGxsZpaWlpDw8PDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJCQk
-JK+vr6/7+/v7////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////
-///////////////////////Ozs7OQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACMjIyPU1NTU////
-////////////5eXl5d7e3t7f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f
-39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f3t7e
-3uHh4eH6+vr6///////////w8PDwR0dHRwAAAAAAAAAAAAAAAAAAAAAEBAQEsrKysv//////////zc3N
-zVNTU1MeHh4eFxcXFxgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgY
-GBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGhoa
-Gjw8PDytra2t///////////g4ODgHBwcHAAAAAAAAAAAAAAAAEtLS0v9/f39/////8zMzMwZGRkZAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAUFBQWenp6e//////////99fX19AAAAAAAAAAAAAAAAtLS0tP/////8/Pz8T09PTwAAAAAAAAAAHx8f
-H0JCQkJTU1NTVlZWVlVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
-VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV1dXV0JCQkIGBgYGAAAA
-AB8fHx/n5+fn/////8jIyMgFBQUFAAAAAAAAAADs7Ozs/////+Xl5eUUFBQUIiIiIp2dnZ3n5+fn////
-////////////////////////////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////////f39/WlpaWkAAAAAAAAA
-ALy8vLz/////4uLi4hkZGRkAAAAAAAAAAPX19fX/////09PT001NTU3e3t7e////////////////////
-////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////lJSUlAAAAAAAAAAAs7Oz
-s//////k5OTkHR0dHQAAAAAAAAAA8/Pz8//////x8fHx7e3t7f//////////1NTU1IODg4Nqampqa2tr
-a2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tr
-a2tra2tra2tra2tra2tra2tra2tra2tra2lpaWmCgoKC+vr6+v////+QkJCQAAAAAAAAAACzs7Oz////
-/+Tk5OQdHR0dAAAAAAAAAADz8/Pz/////////////////////6KioqIRERERAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQkJCT39/f3/////5CQkJAAAAAAAAAAALOzs7P/////5OTk
-5B0dHR0AAAAAAAAAAPPz8/P////////////////Nzc3NDg4ODgAAAAAAAAAACAgICAcHBwcHBwcHBwcH
-BwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcH
-BwcHBwcHBwcHBwcHBwcHBwcGBgYGMjIyMvj4+Pj/////kJCQkAAAAAAAAAAAs7Ozs//////k5OTkHR0d
-HQAAAAAAAAAA8/Pz8////////////////3JycnIAAAAAX19fX7i4uLjT09PT0tLS0tLS0tLS0tLS0tLS
-0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS
-0tLS0tLS0tLS0tLS0tDQ0NDa2tra/v7+/v////+QkJCQAAAAAAAAAACzs7Oz/////+Tk5OQdHR0dAAAA
-AAAAAADz8/Pz////////////////S0tLS4iIiIj/////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////
-/////////////////////////////////5CQkJAAAAAAAAAAALOzs7P/////5OTk5B0dHR0AAAAAAAAA
-APPz8/P///////////////+4uLi49vb29v/////29vb2zMzMzMnJycnJycnJycnJycnJycnJycnJycnJ
-ycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJ
-ycnJycnIyMjI0tLS0v7+/v7/////kJCQkAAAAAAAAAAAs7Ozs//////k5OTkHR0dHQAAAAAAAAAA8/Pz
-8///////////////////////////+Pj4+FhYWFgKCgoKCAgICAkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJ
-CQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJ
-CQgICAgyMjIy+Pj4+P////+QkJCQAAAAAAAAAACzs7Oz/////+Tk5OQdHR0dAAAAAAAAAADz8/Pz////
-///////////////////////y8vLyIyMjIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-ACUlJSX39/f3/////4yMjIwAAAAAAAAAALOzs7P/////5OTk5B0dHR0AAAAAAAAAAPPz8/P/////////
-///////////////////////Dw8PDbm5ubm1tbW1ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5u
-bm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ra2trh4eH
-h/v7+/v/////q6urqxsbGxsAAAAAsLCwsP/////k5OTkHR0dHQAAAAAAAAAA8/Pz8//////6+vr6/Pz8
-/P//////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////
-///////+/v7+6Ojo6Hp6enq6urq6/////+Tk5OQdHR0dAAAAAAAAAADz8/Pz/////9ra2tpXV1dXuLi4
-uPT09PT+/v7+////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////
-//////////////////39/f3/////5OTk5B0dHR0AAAAAAAAAAPPz8/P/////3d3d3RAQEBACAgICKSkp
-KUpKSkpRUVFRUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQ
-UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUE9PT09TU1NThISE
-hOHh4eH////////////////k5OTkHR0dHQAAAAAAAAAA8/Pz8//////d3d3dFxcXFwAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJSUl
-Jc7Ozs7//////////+Tk5OQdHR0dAAAAAAAAAADz8/Pz/////93d3d0XFxcXAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPDw8
-PPX19fX/////5OTk5B0dHR0AAAAAAAAAAPPz8/P/////3d3d3RcXFxcAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAwMDxsbG
-xv/////k5OTkHR0dHQAAAAAAAAAA8/Pz8//////d3d3dFxcXFwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACzs7Oz////
-/+Tk5OQdHR0dAAAAAAAAAADz8/Pz/////93d3d0XFxcXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALKysrL/////5OTk
-5BsbGxsAAAAAAAAAAPPz8/P/////3d3d3RcXFxcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAQEBAQNDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0MDAwMtbW1tf/////k5OTkJycn
-JwoKCgoAAAAA8/Pz8//////d3d3dFxcXFwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAICAgJkZGRkv7+/v9jY2NjZ2dnZ2NjY2NjY2NjY2NjY2NjY2NfX19fz8/Pz//////v7+/vd3d3d0NDQ
-0GVlZWXz8/Pz/////93d3d0XFxcXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjo6O
-jv//////////////////////////////////////////////////////////////////////////7Ozs
-7PPz8/P/////3d3d3RcXFxcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQED9/f39////
-//X19fXGxsbGwsLCwsPDw8PDw8PDw8PDw8PDw8PDw8PDw8PDw8LCwsLJycnJ+Pj4+P/////o6Ojo8/Pz
-8//////d3d3dFxcXFwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiIiIiP/////8/Pz8Y2Nj
-YwICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAhwcHBzi4uLi/////+fn5+fz8/Pz////
-/93d3d0XFxcXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACTk5OT//////n5+fk9PT09AAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEREREeDg4OD/////5+fn5/Pz8/P/////3d3d
-3RcXFxcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFtbW1v//////////9XV1dWEhISEf39/
-f4CAgICAgICAgICAgICAgICAgICAgICAgH9/f3+NjY2N8PDw8P/////n5+fn8/Pz8//////d3d3dFxcX
-FwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwsLC8LCwsL/////////////////////////
-//////////////////////////////////////////////////Dw8PDz8/Pz/////93d3d0XFxcXAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHBwcHKenp6fw8PDw/Pz8/Pz8/Pz8/Pz8/Pz8
-/Pz8/Pz8/Pz8+/v7+/7+/v7///////////z8/Pz4+Pj4oKCgoPPz8/P/////3d3d3RcXFxcAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACsrKytAQEBAPz8/Pz8/Pz8/Pz8/Pz8/
-Pz8/Pz8+Pj4+xMTExP/////p6enpU1NTUzg4ODgFBQUF8/Pz8//////d3d3dFxcXFwAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAACwsLCw/////+Pj4+MWFhYWAAAAAAAAAAD19fX1/////9zc3NwWFhYWAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-ALOzs7P/////5OTk5B4eHh4AAAAAAAAAAOzs7Oz/////5eXl5RsbGxsAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvLy8
-vP/////i4uLiGRkZGQAAAAAAAAAAtLS0tP/////8/Pz8T09PTwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB8fHx/n5+fn////
-/8jIyMgFBQUFAAAAAAAAAABLS0tL/f39/f/////MzMzMGRkZGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFBQUFnp6env//////////fX19
-fQAAAAAAAAAAAAAAAAQEBASysrKy///////////MzMzMU1NTUx4eHh4XFxcXGBgYGBgYGBgYGBgYGBgY
-GBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgY
-GBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgaGhoaPDw8PK2tra3//////////+Dg4OAcHBwcAAAA
-AAAAAAAAAAAAAAAAACMjIyPU1NTU////////////////5eXl5d7e3t7f39/f39/f39/f39/f39/f39/f
-39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f
-39/f39/f39/f39/f39/f39/f39/f3t7e3uHh4eH6+vr6///////////w8PDwR0dHRwAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAACQkJCSvr6+v+/v7+///////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////zs7OzkBAQEAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAMDAwNLS0tLsrKysuzs7Oz09PT08/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz
-8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz
-8/Pz8/Pz8/Pz8/Pz8/T09PTw8PDwxsbGxmlpaWkPDw8PAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4B
-AAADAAAAAQAsAAABAQADAAAAAQAsAAABAgADAAAABAAAHvYBAwADAAAAAQABAAABBgADAAAAAQACAAAB
-EQAEAAAAAQAAAAgBEgADAAAAAQABAAABFQADAAAAAQAEAAABFgADAAAAAQAsAAABFwAEAAAAAQAAHkAB
-HAADAAAAAQABAAABUgADAAAAAQABAAABUwADAAAABAAAHv6HcwAHAAAH2AAAHwYAAAAAAAgACAAIAAgA
-AQABAAEAAQAAB9hhcHBsAiAAAG1udHJSR0IgWFlaIAfZAAIAGQALABoAC2Fjc3BBUFBMAAAAAGFwcGwA
-AAAAAAAAAAAAAAAAAAAAAAD21gABAAAAANMtYXBwbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAC2Rlc2MAAAEIAAAAb2RzY20AAAF4AAAFnGNwcnQAAAcUAAAAOHd0cHQA
-AAdMAAAAFHJYWVoAAAdgAAAAFGdYWVoAAAd0AAAAFGJYWVoAAAeIAAAAFHJUUkMAAAecAAAADmNoYWQA
-AAesAAAALGJUUkMAAAecAAAADmdUUkMAAAecAAAADmRlc2MAAAAAAAAAFEdlbmVyaWMgUkdCIFByb2Zp
-bGUAAAAAAAAAAAAAABRHZW5lcmljIFJHQiBQcm9maWxlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABtbHVjAAAAAAAAAB8AAAAMc2tTSwAAACgAAAGEZGFESwAAAC4A
-AAGsY2FFUwAAACQAAAHadmlWTgAAACQAAAH+cHRCUgAAACYAAAIidWtVQQAAACoAAAJIZnJGVQAAACgA
-AAJyaHVIVQAAACgAAAKaemhUVwAAABYAAALCbmJOTwAAACYAAALYY3NDWgAAACIAAAL+aGVJTAAAAB4A
-AAMgaXRJVAAAACgAAAM+cm9STwAAACQAAANmZGVERQAAACwAAAOKa29LUgAAABYAAAO2c3ZTRQAAACYA
-AALYemhDTgAAABYAAAPMamFKUAAAABoAAAPiZWxHUgAAACIAAAP8cHRQTwAAACYAAAQebmxOTAAAACgA
-AAREZXNFUwAAACYAAAQedGhUSAAAACQAAARsdHJUUgAAACIAAASQZmlGSQAAACgAAASyaHJIUgAAACgA
-AATacGxQTAAAACwAAAUCcnVSVQAAACIAAAUuYXJFRwAAACYAAAVQZW5VUwAAACYAAAV2AFYBYQBlAG8A
-YgBlAGMAbgD9ACAAUgBHAEIAIABwAHIAbwBmAGkAbABHAGUAbgBlAHIAZQBsACAAUgBHAEIALQBiAGUA
-cwBrAHIAaQB2AGUAbABzAGUAUABlAHIAZgBpAGwAIABSAEcAQgAgAGcAZQBuAOgAcgBpAGMAQx6lAHUA
-IABoAOwAbgBoACAAUgBHAEIAIABDAGgAdQBuAGcAUABlAHIAZgBpAGwAIABSAEcAQgAgAEcAZQBuAOkA
-cgBpAGMAbwQXBDAEMwQwBDsETAQ9BDgEOQAgBD8EQAQ+BEQEMAQ5BDsAIABSAEcAQgBQAHIAbwBmAGkA
-bAAgAGcA6QBuAOkAcgBpAHEAdQBlACAAUgBWAEIAwQBsAHQAYQBsAOEAbgBvAHMAIABSAEcAQgAgAHAA
-cgBvAGYAaQBskBp1KAAgAFIARwBCACCCcl9pY8+P8ABHAGUAbgBlAHIAaQBzAGsAIABSAEcAQgAtAHAA
-cgBvAGYAaQBsAE8AYgBlAGMAbgD9ACAAUgBHAEIAIABwAHIAbwBmAGkAbAXkBegF1QXkBdkF3AAgAFIA
-RwBCACAF2wXcBdwF2QBQAHIAbwBmAGkAbABvACAAUgBHAEIAIABnAGUAbgBlAHIAaQBjAG8AUAByAG8A
-ZgBpAGwAIABSAEcAQgAgAGcAZQBuAGUAcgBpAGMAQQBsAGwAZwBlAG0AZQBpAG4AZQBzACAAUgBHAEIA
-LQBQAHIAbwBmAGkAbMd8vBgAIABSAEcAQgAg1QS4XNMMx3xmbpAaACAAUgBHAEIAIGPPj/Blh072TgCC
-LAAgAFIARwBCACAw1zDtMNUwoTCkMOsDkwO1A70DuQO6A8wAIAPAA8EDvwPGA68DuwAgAFIARwBCAFAA
-ZQByAGYAaQBsACAAUgBHAEIAIABnAGUAbgDpAHIAaQBjAG8AQQBsAGcAZQBtAGUAZQBuACAAUgBHAEIA
-LQBwAHIAbwBmAGkAZQBsDkIOGw4jDkQOHw4lDkwAIABSAEcAQgAgDhcOMQ5IDicORA4bAEcAZQBuAGUA
-bAAgAFIARwBCACAAUAByAG8AZgBpAGwAaQBZAGwAZQBpAG4AZQBuACAAUgBHAEIALQBwAHIAbwBmAGkA
-aQBsAGkARwBlAG4AZQByAGkBDQBrAGkAIABSAEcAQgAgAHAAcgBvAGYAaQBsAFUAbgBpAHcAZQByAHMA
-YQBsAG4AeQAgAHAAcgBvAGYAaQBsACAAUgBHAEIEHgQxBEkEOAQ5ACAEPwRABD4ERAQ4BDsETAAgAFIA
-RwBCBkUGRAZBACAGKgY5BjEGSgZBACAAUgBHAEIAIAYnBkQGOQYnBkUARwBlAG4AZQByAGkAYwAgAFIA
-RwBCACAAUAByAG8AZgBpAGwAZXRleHQAAAAAQ29weXJpZ2h0IDIwMDcgQXBwbGUgSW5jLiwgYWxsIHJp
-Z2h0cyByZXNlcnZlZC4AWFlaIAAAAAAAAPNSAAEAAAABFs9YWVogAAAAAAAAdE0AAD3uAAAD0FhZWiAA
-AAAAAABadQAArHMAABc0WFlaIAAAAAAAACgaAAAVnwAAuDZjdXJ2AAAAAAAAAAEBzQAAc2YzMgAAAAAA
-AQxCAAAF3v//8yYAAAeSAAD9kf//+6L///2jAAAD3AAAwGzSJSYnKFokY2xhc3NuYW1lWCRjbGFzc2Vz
-XxAQTlNCaXRtYXBJbWFnZVJlcKMnKSpaTlNJbWFnZVJlcFhOU09iamVjdNIlJiwtV05TQXJyYXmiLCrS
-JSYvMF5OU011dGFibGVBcnJheaMvLCrTMjMKNDU2V05TV2hpdGVcTlNDb2xvclNwYWNlRDAgMAAQA4AM
-0iUmODlXTlNDb2xvcqI4KtIlJjs8V05TSW1hZ2WiOypfEA9OU0tleWVkQXJjaGl2ZXLRP0BUcm9vdIAB
-AAgAEQAaACMALQAyADcARgBMAFcAXgBlAHIAeQCBAIMAhQCKAIwAjgCXAJwApwCpAKsArQCyALUAtwC5
-ALsAvQDCANkA2wDdJ78nxCfPJ9gn6yfvJ/ooAygIKBAoEygYKCcoKygyKDooRyhMKE4oUChVKF0oYChl
-KG0ocCiCKIUoigAAAAAAAAIBAAAAAAAAAEEAAAAAAAAAAAAAAAAAACiMA
-</mutableData>
-        </image>
-        <image name="alert_bg" width="240" height="240"/>
-        <image name="arrow" width="39" height="58"/>
-        <image name="arrow_icon" width="12" height="23"/>
-        <image name="back" width="15" height="13"/>
-        <image name="bg_b_sign_in" width="320" height="260"/>
-        <image name="bg_btn_small" width="300" height="51"/>
-        <image name="bg_edittext" width="127" height="35"/>
-        <image name="bg_emailInfo" width="19" height="19"/>
-        <image name="bg_menu" width="195" height="569"/>
-        <image name="bg_profile_profile" width="320" height="179"/>
-        <image name="bg_progressCell" width="305" height="78"/>
-        <image name="bg_sing_attention" width="19" height="19"/>
-        <image name="bg_splash" width="320" height="568"/>
-        <image name="bg_w_fare_estimate" width="315" height="548"/>
-        <image name="btnSimpleCheck" width="14" height="14"/>
-        <image name="btn_a_sign_in" width="160" height="51"/>
-        <image name="btn_b_sign_in" width="160" height="51"/>
-        <image name="btn_facebook" width="26" height="26"/>
-        <image name="btn_google_signIn" width="26" height="26"/>
-        <image name="call" width="63" height="63"/>
-        <image name="camera_payment" width="40" height="34"/>
-        <image name="cancel_btn" width="28" height="27"/>
-        <image name="card_sileted_payment" width="50" height="32"/>
-        <image name="cash" width="19" height="19"/>
-        <image name="check_box" width="32" height="32"/>
-        <image name="check_logout" width="38" height="27"/>
-        <image name="check_notification" width="26" height="23"/>
-        <image name="clock" width="22" height="22"/>
-        <image name="clock-img" width="20" height="18"/>
-        <image name="clock_black" width="20" height="20"/>
-        <image name="close_logout" width="28" height="27"/>
-        <image name="close_payment" width="16" height="16"/>
-        <image name="completed_btn_feedback" width="160" height="103"/>
-        <image name="country_code_combo_bg.png" width="95" height="35"/>
-        <image name="date" width="14" height="14"/>
-        <image name="desc_editbar_bg.png" width="266" height="10"/>
-        <image name="divider" width="320" height="1"/>
-        <image name="divider-1" width="1" height="1"/>
-        <image name="divider_register" width="320" height="1"/>
-        <image name="document_pin" width="18" height="18"/>
-        <image name="dot_fare_estimate" width="8" height="9"/>
-        <image name="edit_bar_bg" width="258" height="35"/>
-        <image name="edit_bar_bg1" width="49" height="35"/>
-        <image name="edit_profile" width="19" height="19"/>
-        <image name="error" width="21" height="21"/>
-        <image name="fb-1" width="26" height="26"/>
-        <image name="gmailwhite" width="26" height="26"/>
-        <image name="gray_cricle" width="40" height="40"/>
-        <image name="hf.png" width="40" height="38"/>
-        <image name="icon_card" width="57" height="36"/>
-        <image name="icon_cash" width="44" height="44"/>
         <image name="img_address_progress" width="7" height="7"/>
         <image name="img_time_progress" width="10" height="8"/>
         <image name="line-1" width="320" height="5"/>
         <image name="line_invoice" width="320" height="5"/>
-        <image name="logo" width="208" height="208"/>
+        <image name="logo" width="256" height="256"/>
         <image name="menu" width="18" height="15"/>
         <image name="mile" width="22" height="22"/>
         <image name="mile_black" width="20" height="20"/>
@@ -20249,8 +20311,8 @@ KG0ocCiCKIUoigAAAAAAAAIBAAAAAAAAAEEAAAAAAAAAAAAAAAAAACiMA
     <inferredMetricsTieBreakers>
         <segue reference="UTX-Jf-cEe"/>
         <segue reference="37B-WV-PSw"/>
-        <segue reference="57T-qL-4ac"/>
         <segue reference="Hdi-Rb-b2v"/>
+        <segue reference="57T-qL-4ac"/>
         <segue reference="Yd2-F1-3Ms"/>
     </inferredMetricsTieBreakers>
 </document>

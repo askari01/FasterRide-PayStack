@@ -14,7 +14,6 @@
 #import "ProviderDetailsVC.h"
 #import <Paystack/Paystack.h>
 
-
 @implementation AppDelegate
 @synthesize vcProvider;
 
@@ -33,7 +32,10 @@
     [GIDSignIn sharedInstance].clientID = GOOGLE_PLUS_CLIENT_ID;
     [GIDSignIn sharedInstance].delegate = self;
     
-    [Paystack setDefaultPublishableKey:@"pk_test_98da704106b69d8267a13f4789afbdf87b587967"];
+   // [Paystack setDefaultPublishableKey:@"pk_test_98da704106b69d8267a13f4789afbdf87b587967"];
+    
+    [Paystack setDefaultPublishableKey:@"pk_live_263d5d22fd2624eeea7b2d9727dde258e0706f51"];
+    [GMSServices provideAPIKey:(@"AIzaSyCUEoGzyCcNnVH1UxCMGjuZptNh-serLyc")];
     
 	return YES;
 }

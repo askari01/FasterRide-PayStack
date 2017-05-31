@@ -77,7 +77,7 @@
                      [PREF setObject:strForReferralCode forKey:PREF_REFERRAL_CODE];
                      [PREF synchronize];
                      self.lblCode.text=strForReferralCode;
-                     self.lblBalance.text=[NSString stringWithFormat:@"$ %@",[response valueForKey:@"balance_amount"]];
+                     self.lblBalance.text=[NSString stringWithFormat:@"₦ %@",[response valueForKey:@"balance_amount"]];
                  }
                  else
                  {
@@ -130,7 +130,7 @@
         MFMailComposeViewController *mailer=[[MFMailComposeViewController alloc]init ];
         mailer.mailComposeDelegate=self;
         NSArray *toRecipients=[[NSArray alloc]initWithObjects:@"",nil];
-        NSString *msg=[NSString stringWithFormat:@"Sign up for Uber For X with my referral code %@, and get the first ride worth $x free!",strForReferralCode];
+        NSString *msg=[NSString stringWithFormat:@"Sign up for Uber For X with my referral code %@, and get the first ride worth ₦x free!",strForReferralCode];
        [mailer setSubject:@"SHARE REFERRAL CODE"];
         [mailer setMessageBody:msg isHTML:NO];
        // [mailer setToRecipients:toRecipients];

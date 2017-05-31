@@ -28,6 +28,7 @@ NSString *const SEGUE_TO_DIRECT_LOGIN=@"segueToMapDirectLogin";
 NSString *const SEGUE_TO_FEEDBACK=@"segueToFeedBack";
 NSString *const SEGUE_TO_CONTACT=@"segueToContactUs";
 NSString *const SEGUE_TO_HISTORY=@"segueToHistory";
+NSString *const SEGUE_TO_HELP=@"segueToHelp";
 NSString *const SEGUE_TO_ADD_CARD=@"segueToAddCard";
 NSString *const SEGUE_TO_REFERRAL_CODE=@"segueToReferralCode";
 NSString *const SEGUE_TO_APPLY_REFERRAL_CODE=@"segueToApplyReferral";

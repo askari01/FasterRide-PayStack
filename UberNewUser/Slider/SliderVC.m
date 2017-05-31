@@ -61,11 +61,11 @@
     [self.imgProfilePic applyRoundedCornersFullWithColor:[UIColor clearColor]];
 	[self.viewForBG setBackgroundColor:MenuViewColor];
     
-    arrSlider=[[NSMutableArray alloc]initWithObjects:NSLocalizedString(@"Profile", nil),NSLocalizedString(@"Booking",nil),NSLocalizedString(@"History",nil),nil ];
+    arrSlider=[[NSMutableArray alloc]initWithObjects:NSLocalizedString(@"Profile", nil),NSLocalizedString(@"Booking",nil),NSLocalizedString(@"History",nil),NSLocalizedString(@"Help",nil),nil];
     
-    arrImages=[[NSMutableArray alloc]initWithObjects:@"nav_profile",@"nav_profile",@"ub__nav_history",nil];
+    arrImages=[[NSMutableArray alloc]initWithObjects:@"nav_profile",@"nav_profile",@"ub__nav_history",@"ub__nav_history",nil];
     
-    arrIdentifire=[[NSMutableArray alloc]initWithObjects:SEGUE_PROFILE,SEGUE_TO_BOOKING,SEGUE_TO_HISTORY,nil];
+    arrIdentifire=[[NSMutableArray alloc]initWithObjects:SEGUE_PROFILE,SEGUE_TO_BOOKING,SEGUE_TO_HISTORY,SEGUE_TO_HELP,nil];
     
     NSMutableArray *arrTemp=[[NSMutableArray alloc]init];
     NSMutableArray *arrImg=[[NSMutableArray alloc]init];
@@ -120,7 +120,7 @@
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [arrSlider count];
+    return arrSlider.count;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath

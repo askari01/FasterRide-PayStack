@@ -81,7 +81,7 @@
         stripePublishableKey = [PREF valueForKey:@"stripe_key"];
         strForGooglePlusClientId = [PREF valueForKey:@"Google_Client_id"];
         strForGooglePlusClientSecret = [PREF valueForKey:@"Google_Client_secret"];
-        strForGoogleMapKey = [PREF valueForKey:@"Google_Map_key"];
+        strForGoogleMapKey = @"AIzaSyCUEoGzyCcNnVH1UxCMGjuZptNh-serLyc";
         [GMSServices provideAPIKey:strForGoogleMapKey];
         if(is_first)
         {
@@ -119,7 +119,7 @@
                      dict = [response valueForKey:@"user"];
                      strForGooglePlusClientId = [dict valueForKey:@"Google_Client_id"];
                      strForGooglePlusClientSecret = [dict valueForKey:@"Google_Client_secret"];
-                     strForGoogleMapKey = [dict valueForKey:@"Google_Map_key"];
+                     strForGoogleMapKey = @"AIzaSyCUEoGzyCcNnVH1UxCMGjuZptNh-serLyc";
                      [GMSServices provideAPIKey:strForGoogleMapKey];
                      [PREF setValue:strForGoogleMapKey forKey:@"Google_Map_key"];
                      [PREF setValue:strForGooglePlusClientId forKey:@"Google_Client_id"];

@@ -1603,7 +1603,7 @@
                  {
                      [PREF setObject:[response valueForKey:@"eta"] forKey:PREF_FARE_AMOUNT];
                      [PREF synchronize];
-                     self.lMinFare.text= [NSString stringWithFormat:@"$%.2f",[[response valueForKey:@"eta"] floatValue]];
+                     self.lMinFare.text= [NSString stringWithFormat:@"₦%.2f",[[response valueForKey:@"eta"] floatValue]];
                  }
                  else
                  {
@@ -2302,9 +2302,9 @@
             
             NSDictionary *dict=[arrType objectAtIndex:currentIndex];
             
-            self.lblMin_fare.text=[NSString stringWithFormat:@"$ %@",[dict valueForKey:@"min_fare"]];
-            self.lblPerKm.text=[NSString stringWithFormat:@"$%.2f per %@",[[dict valueForKey:@"price_per_unit_distance"] floatValue],[dict valueForKey:@"unit"]];
-            self.lblTimeCost.text=[NSString stringWithFormat:@"$%.2f per min",[[dict valueForKey:@"price_per_unit_time"] floatValue]];
+            self.lblMin_fare.text=[NSString stringWithFormat:@"₦ %@",[dict valueForKey:@"min_fare"]];
+            self.lblPerKm.text=[NSString stringWithFormat:@"₦%.2f per %@",[[dict valueForKey:@"price_per_unit_distance"] floatValue],[dict valueForKey:@"unit"]];
+            self.lblTimeCost.text=[NSString stringWithFormat:@"₦%.2f per min",[[dict valueForKey:@"price_per_unit_time"] floatValue]];
             self.lMaxSize.text=[NSString stringWithFormat:@" %@ person",[dict valueForKey:@"max_size"]];
             
             strMinFare=[NSString stringWithFormat:@"%@",[dict valueForKey:@"base_price"]];

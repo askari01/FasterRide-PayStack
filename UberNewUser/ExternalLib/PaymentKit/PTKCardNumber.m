@@ -124,9 +124,9 @@
     }
 
     if (self.cardType == PTKCardTypeAmex) {
-        regex = [NSRegularExpression regularExpressionWithPattern:@"^(\\d{4}|\\d{4}\\s\\d{6})$" options:0 error:NULL];
+        regex = [NSRegularExpression regularExpressionWithPattern:@"^(\\d{4}|\\d{4}\\s\\d{6})₦" options:0 error:NULL];
     } else {
-        regex = [NSRegularExpression regularExpressionWithPattern:@"(?:^|\\s)(\\d{4})$" options:0 error:NULL];
+        regex = [NSRegularExpression regularExpressionWithPattern:@"(?:^|\\s)(\\d{4})₦" options:0 error:NULL];
     }
 
     NSUInteger numberOfMatches = [regex numberOfMatchesInString:string options:0 range:NSMakeRange(0, string.length)];
